@@ -3,10 +3,17 @@
 An HTTP Service that returns random search results back no matter what JSON a client sends to it.
 
 ## Running the app
-
 You can run the app - locally with Maven, or in your IDE.
 
-**Via Maven**
+**Prerequisites**
+These instructions assume you have the following installed: 
+- Maven
+- Java
+- JDK
+
+Installation instructions for the above are readily available online.
+
+**Running via Maven**
 
 - Clone the repo to your development machine
 - cd into the project folder once cloned
