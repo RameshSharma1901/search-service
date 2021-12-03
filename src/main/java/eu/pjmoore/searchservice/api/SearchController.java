@@ -27,7 +27,7 @@ public class SearchController {
     }
 
     @RequestMapping(value = "/search",
-            method = {RequestMethod.GET},
+            method = {RequestMethod.POST},
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE)
     @ApiOperation(value = "Search for results matching the request criteria",
