@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Objects;
 
-public class SearchRequest {
+public final class SearchRequest {
 
     private final String searchTerm;
 

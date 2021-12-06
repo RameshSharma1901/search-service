@@ -19,18 +19,18 @@ Installation instructions for the above are readily available online.
 - cd into the project folder once cloned
 - mvn spring-boot:run
 
-Once running, you can interact with the local server via localhost:3000
+Once running, you can interact with the local server via localhost:8080
 
 ## API Docs
 
-Detailed API Docs are provided by Swagger - available locally at http://localhost:3000/swagger-ui/index.html when the
+Detailed API Docs are provided by Swagger - available locally at http://localhost:8080/swagger-ui/index.html when the
 app is running
 
 ## Example Interaction
 
 **Request**
 
-`curl --header "Content-Type: application/json" --request POST --data '{"searchTerm": "test"}' http://localhost:3000/api/search`
+`curl --header "Content-Type: application/json" --request POST --data '{"searchTerm": "test"}' http://localhost:8080/api/search`
 
 **Response**
 
@@ -41,4 +41,4 @@ app is running
 Micrometer has been included in the application, and a prometheus scraper endpoint exposed to allow observation of the
 app.
 
-Scraper Endpoint: http://localhost:3000/actuator/prometheus
+Scraper Endpoint: http://localhost:8080/actuator/prometheus

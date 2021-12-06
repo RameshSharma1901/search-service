@@ -17,6 +17,9 @@ joy to use.
 You don’t have to make any changes to the backend code - and the README provided includes samples of how to interact
 with the service.
 
+You should fork this SearchService repository to a Git repository of your choosing, implement your frontend solution
+and share your solution repository link with us.
+
 ### Requirements & Capabilities
 
 - Weighting of the search result should be taken into consideration in how you display results.
