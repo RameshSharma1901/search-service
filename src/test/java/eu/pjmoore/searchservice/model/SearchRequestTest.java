@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class SearchRequestTest {
 
     @Test
-    public void equalsContract() {
+    void equalsContract() {
         EqualsVerifier.forClass(SearchRequest.class).verify();
     }
 
