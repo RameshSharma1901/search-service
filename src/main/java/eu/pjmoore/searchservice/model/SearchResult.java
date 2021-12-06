@@ -3,7 +3,7 @@ package eu.pjmoore.searchservice.model;
 import java.util.List;
 import java.util.Objects;
 
-public class SearchResult {
+public final class SearchResult {
 
     private final String title;
     private final String description;
