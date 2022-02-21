@@ -10,9 +10,13 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+UI displays input to search term, results of which are displayed in table format below. 
+
+![image](https://user-images.githubusercontent.com/44294869/155011308-f306922e-bcb0-4e87-b01d-54d54afc9a87.png)
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
 
 ### `npm test`
 
