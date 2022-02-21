@@ -9,8 +9,9 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-UI displays input to search term, results of which are displayed in table format below. 
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+* UI displays input to search term, results of which are displayed in table format below. \
+* Results are ordered on weights with one most weighted shown at top.
 
 ![image](https://user-images.githubusercontent.com/44294869/155011308-f306922e-bcb0-4e87-b01d-54d54afc9a87.png)
 

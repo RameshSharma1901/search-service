@@ -42,3 +42,6 @@ Micrometer has been included in the application, and a prometheus scraper endpoi
 app.
 
 Scraper Endpoint: http://localhost:8080/actuator/prometheus
+
+## For UI click [here](https://github.com/RameshSharma1901/search-service/blob/main/src/main/ui/README.md)
+
