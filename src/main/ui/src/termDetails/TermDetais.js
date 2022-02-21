@@ -8,6 +8,7 @@ import {
   TableRow,
 } from "@mui/material";
 
+/* Functional component to show search results in Table format*/
 export default function TermDetails(props) {
   return (
     <TableContainer component={Paper}>

@@ -5,10 +5,12 @@ import { useState } from "react";
 import axios from "axios";
 import TermDetais from "../termDetails/TermDetais";
 
+/* Home component*/
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [data, setData] = useState([]);
 
+  /* Function to call search API */
   function search() {
     const payload = {
       method: "POST",
@@ -20,15 +22,16 @@ export default function Home() {
         payload,
       })
       .then(function (response) {
-        console.log(response);
-
+        /* If response retrieved */
         setData(
+          /* Sort the data on weights */
           response.data.sort((a, b) => {
             return b.weight - a.weight;
           })
         );
       })
       .catch(function (error) {
+        /* In case if error */
         alert(error);
       });
   }
